@@ -1,0 +1,11 @@
+Para realizar un DELETE es necesario quitar seguridad de CSRF a la aplicacion
+
+Controllers> App_controller
+
+source {
+	
+
+	change_this(protect_from_forgery with: :exception)
+
+protect_from_forgery with: :null_session
+}
