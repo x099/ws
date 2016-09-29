@@ -1,0 +1,28 @@
+Tipo de MIME 						Tipo de archivo 				[Extensión asociada]
+application/atom+xml 				Archivos en formato ATOM 				atom
+application/iges 					Archivos CAS 							iges
+application/javascript 				Archivos JavaScript 					js
+application/dxf 					Archivos AutoCAD 						dxf
+application/mp4 					Archivos MPEG4 							mp4
+application/iges 					Formato de intercambio IGES  			igs, iges
+application/octet-stream 			Archivos binarios no interpretados 		bin
+application/msword 					Archivos de documentos Microsoft Word 	doc
+application/pdf 					Archivos Adobe Acrobat 					pdf
+application/postscript 				Archivos PostScript 					ai, eps, ps
+application/rtf 					Formato de texto enriquecido 			rtf
+application/sgml 					Archivos SGML 							sgml
+application/vnd.ms-excel 			Archivos de hojas de cálculo Microsoft Excel 	xls
+application/vnd.ms-powerpoint 		Archivos de presentación Microsoft Powerpoint 	ppt
+application/xml 					Archivo XML 									xml
+application/x-tar 					Archivos TAR comprimidos 						tar
+application/zip 					Archivos ZIP comprimidos 						man
+audio/basic 						Archivos de audio básicos 					au, snd
+audio/mpeg 							Archivo de audio MPEG 						mpg,mp3
+audio/mp4 							Archivo de audio MPEG-4 					mp4
+audio/x-aiff 						Archivos de audio AIFF 				aif, aiff, aifc
+audio/x-wav 						Archivos de audio Wav 					wav
+image/gif 							Imágenes Gif 	man
+image/jpeg 							?Imágenes Jpeg 						jpg, jpeg, jpe
+imagen/png 							Imágenes PNG 						png
+image/tiff 							Imágenes Tiff 						tiff, tif
+image/x-portable-bitmap 			Archivos Bitmap PBM 				pbm
