@@ -1,0 +1,20 @@
+Clase Rectangulo
+	INICIO
+		ENTERO PUBLICO VIRTUAL ancho {Get,Set}
+		ENTERO PUBLICO VIRTUAL alto {Get,Set}
+		ENTERO PUBLICO Area(){return ancho*alto}
+	FIN	
+
+Clase Publica CUADRADO hereda RECTANGULO
+	INICIO ANCHO
+		sobreescribir ENTERO ancho
+		obtiene valor
+		coloca valor en ancho
+	FIN
+
+INICIO ALTO
+		sobreescribir ENTERO ancho
+		obtiene valor
+		coloca valor en alto
+	FIN
+

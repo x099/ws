@@ -1,0 +1,20 @@
+¿Problema? Que pasaria si se implementaran nuevas armas? El codigo tendria
+que modificarse.
+
+Solucion :: 
+
+Clase BattleGame
+	Entero daño
+
+	Funcion disparo (Cadena arma)
+	Inicio
+		LeerArchivo f = nuevo LeerArchivo('weapons.txt')
+		BufferLectura b = nuevo BufferLectura(f)
+		Mientras arma!= b.Leerlinea
+			b.Seguirleyendo
+		b[7,10] //obtiene el daño
+		daño=(CastearEntero)b
+
+	FIN
+
+

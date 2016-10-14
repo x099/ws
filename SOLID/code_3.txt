@@ -1,0 +1,28 @@
+Problema? Hay metodos innecesarios que son heredados por algunas clases
+
+INTERFAZ Publica AVE_V
+	INICIO
+		Comer()
+		Volar()
+
+	FIN
+
+INTEFAZ Publica AVE_T
+	INICIO
+		Comer()
+		Caminar()
+	FIN
+
+CLASE PUBLICA Eagle:AVE_V
+INICIO
+	Comer() IMPRIME "Yumi Yumi"
+	Volar()  IMPRIME "Woo hoo!!"
+FIN
+
+
+CLASE PUBLICA Penguin:AVE_V
+INICIO
+	Comer() IMPRIME "Yumi Yumi"
+	Caminar()  IMPRIME "Caminando ando!"
+FIN
+

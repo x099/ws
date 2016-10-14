@@ -1,0 +1,23 @@
+¿Problema? Cuenta con lineas de mas en la misma funcion
+
+Clase Seguridad
+
+Funcion Validar(Entero registro)
+INICIO
+	SI registro > 0
+		IMPRIMIR "ACCESESO AUTORIZADO"
+		RETORNA VERDADERO
+	SINO
+		IMPRIMIR "ACCESESO DENEGADO"
+		RETORNA FALSO
+FIN
+
+Funcion Acceso(Cadena usuario, Cadena pass)
+Inicio
+	ConexionSQL cnn = nueva ConexionSQL(usuario,pass)
+	cnn.abre()
+	Cadena query="OBTENER SI EL USUARIO Y PASSWORD EXISTEN"
+	ComandoSQL cmd = nuevo ComandoSQL (query,cnn)
+	Entero registro= (Casteo_Entero)cmd.ejecutar
+    Validar(registro)
+FIN
